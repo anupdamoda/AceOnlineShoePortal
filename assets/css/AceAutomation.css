@@ -1,0 +1,288 @@
+body
+{
+	background-image: url('../images/image.jpg');
+}
+
+#ShoePortalTitle
+{
+ color: #000000;
+ text-align: left;
+ padding-left: 45px;
+
+}
+
+#ShoePortalImage 
+{
+box-shadow: 11px 10px 29px 0px rgba(0,0,0,1);
+padding: 20px;
+}
+
+#Shoethumbnail
+{
+	box-shadow: 11px 10px 29px 0px rgba(0,0,0,1);
+	border-radius: 5px;
+}
+
+#ShoeType
+{
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+.col-md-3point5 
+{
+    width: 28.75%
+}
+
+#SmokeTests
+{	
+	color: #ffffff;
+	margin-right: 50px;	
+	border-radius: 10px;
+	background: rgba(76,76,76,1);
+	background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(63%, rgba(71,71,71,1)), color-stop(96%, rgba(17,17,17,1)), color-stop(98%, rgba(0,0,0,1)), color-stop(99%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+	background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+	-webkit-box-shadow: 11px 10px 29px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 10px 29px 0px rgba(0,0,0,0.75);
+	box-shadow: 11px 10px 29px 0px rgba(255,255,255,1);
+	font-family: 'Comfortaa';font-size: 22px;
+}
+
+#RegressionTests
+{
+	color: #ffffff;
+	margin-right: 50px;
+	border-radius: 10px;
+	background: rgba(76,76,76,1);
+	background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(63%, rgba(71,71,71,1)), color-stop(96%, rgba(17,17,17,1)), color-stop(98%, rgba(0,0,0,1)), color-stop(99%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+	background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+	-webkit-box-shadow: 11px 10px 29px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 10px 29px 0px rgba(0,0,0,0.75);
+	box-shadow: 11px 10px 29px 0px rgba(255,255,255,1);
+	font-family: 'Comfortaa';font-size: 22px;
+}
+
+#VanguardTests
+{
+	color: #ffffff;
+	border-radius: 10px;
+	padding-right: 5px;
+	background: rgba(76,76,76,1);
+	background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(63%, rgba(71,71,71,1)), color-stop(96%, rgba(17,17,17,1)), color-stop(98%, rgba(0,0,0,1)), color-stop(99%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+	background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 63%, rgba(17,17,17,1) 96%, rgba(0,0,0,1) 98%, rgba(28,28,28,1) 99%, rgba(19,19,19,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+	-webkit-box-shadow: 11px 10px 29px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 10px 29px 0px rgba(0,0,0,0.75);
+	box-shadow: 11px 10px 29px 0px rgba(255,255,255,1);
+	font-family: 'Comfortaa';font-size: 22px;
+	
+}
+
+.btn-info
+{
+margin-right: 50px;	
+box-shadow: 11px 10px 29px 0px rgba(255,255,255,1);
+font-family: 'Comfortaa';font-size: 16px;
+}
+
+.btn-primary
+{
+	box-shadow: 11px 10px 29px 0px rgba(255,255,255,1);
+font-family: 'Comfortaa';font-size: 16px;
+}
+
+.jumbotron
+{
+background-image: url("../images/jumbtrombackgroundimage-3.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: top;
+height: 350px;
+}
+
+.form-group
+{
+width: 350px;
+color: #000000;
+text-align: left;
+font-family: 'Comfortaa';font-size: 16px;
+font-weight: 900;
+}
+
+#usr
+{
+font-size: 16px;
+color: #000000;
+}
+
+#menuToggle
+{
+  display: block;
+  border-radius: 25px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: #000000;
+  font-weight: bold;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  border-radius: 25px;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  border-radius: 25px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 100px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  border-radius: 10px;
+
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+  position: absolute;
+}
+
+#MainPageText
+{
+  color: #000000;
+  font-size: 75px;
+  text-shadow:5px 5px 10px black;
+   font-weight: 400;
+}
