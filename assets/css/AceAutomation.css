@@ -1,6 +1,6 @@
 body
 {
-	background-image: url('../images/image.jpg');
+	background-image: url('../images/worldmap.jpg');
 }
 
 #ShoePortalTitle
@@ -96,13 +96,13 @@ padding: 20px;
 .btn-info
 {
 margin-right: 50px;	
-box-shadow: 11px 10px 29px 0px rgba(255,255,255,1);
+
 font-family: 'Comfortaa';font-size: 16px;
 }
 
 .btn-primary
 {
-	box-shadow: 11px 10px 29px 0px rgba(255,255,255,1);
+
 font-family: 'Comfortaa';font-size: 16px;
 }
 
@@ -118,7 +118,7 @@ height: 350px;
 .form-group
 {
 width: 350px;
-color: #000000;
+color: #ffffff;
 text-align: left;
 font-family: 'Comfortaa';font-size: 16px;
 font-weight: 900;
@@ -281,8 +281,30 @@ color: #000000;
 
 #MainPageText
 {
-  color: #000000;
+  color: #ffffff;
   font-size: 75px;
-  text-shadow:5px 5px 10px black;
+  text-shadow:5px 5px 10px white;
    font-weight: 400;
+   font-family: 'Comfortaa';
+}
+
+#CopyrightFooter
+{
+  color: #ffffff;
+  font-size: 15px;
+  text-shadow:5px 5px 10px white;
+   font-weight: 400;
+   font-family: 'Comfortaa';
+}
+
+#ShoePortalTitle
+{
+  font-family: 'Comfortaa';
+  font-weight: 900;
+}
+
+.table
+{
+  color: #ffffff;
+  font-family: 'Comfortaa';
 }
