@@ -12,7 +12,7 @@ $("#Login").on('click',function(){
 });
 
 $(document).ready(function(){
-$("#FormalShoesbutton").on('click',function(){
+$(".btn.btn-info").on('click',function(){
     location.href = "FormalShoeslist.html"
   });
 });
