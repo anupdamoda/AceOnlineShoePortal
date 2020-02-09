@@ -16,3 +16,9 @@ $(".btn.btn-info.FormalShoes").on('click',function(){
     location.href = "FormalShoeslist.html"
   });
 });
+
+$(document).ready(function(){
+$("#Submit").on('click',function(){
+    location.href = "RegistrationSuccessfulmessage.html"
+  });
+});
