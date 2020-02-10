@@ -22,3 +22,10 @@ $("#Submit").on('click',function(){
     location.href = "RegistrationSuccessfulmessage.html"
   });
 });
+
+
+$(document).ready(function(){
+$(".btn.btn-info.AddToCart").on('click',function(){
+    location.href = "CodeSuccessfulmessage.html"
+  });
+});
