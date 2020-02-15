@@ -52,7 +52,7 @@ $(document).ready(function() {
       else if (username.length < 1) {
       $('#username').after('<span class="error">This field is required</span>');
       }
-    else if (password.length < 8) {
+    else if (password.length < 1) {
       $('#pwd').after('<span class="error">This field is required</span>');
       }
      else{
