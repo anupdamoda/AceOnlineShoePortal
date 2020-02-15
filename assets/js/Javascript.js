@@ -7,11 +7,11 @@ $("#NewRegistration").on('click',function(){
   });
 });
 
-$(document).ready(function(){
-$("#Login").on('click',function(){
-    location.href = "ShoeTypes.html"
-  });
-});
+//$(document).ready(function(){
+//$("#Login").on('click',function(){
+   // location.href = "ShoeTypes.html"
+ // });
+//});
 
 $(document).ready(function(){
 $(".btn.btn-info.FormalShoes").on('click',function(){
@@ -63,9 +63,31 @@ $(document).ready(function() {
   });
 
 
+$(document).ready(function() {
+  $('#second_form').submit(function(e) {
+
+    e.preventDefault();
+    var user_name = $('#usr').val();
+    var password = $('#pwd').val();
+
+    $(".error").remove();
+
+    if (user_name.length < 1) {
+      $('#pwd').after('<span class="error">Both Username and Password field are required</span>');
+    }
+    else if (password.length < 1) {
+      $('#pwd').after('<span class="error">Both Username and Password field are required</span>');
+    }
+     else{
+       location.href = "ShoeTypes.html";
+          }
+      
+     })
+});
+
 $(document).ready(function(){
 $(".btn.btn-info.AddToCart").on('click',function(){
-    location.href = "CodeSuccessfulmessage.html"
+    location.href = "AddedToCartSuccessfulmessage.html"
   });
 });
 
