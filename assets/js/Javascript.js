@@ -47,10 +47,10 @@ $(document).ready(function() {
         $('#emailId').after('<span class="error">Enter a valid email</span>');
       }
       else if (contactnumber.length < 1) {
-      $('#pwd').after('<span class="error">This field is required</span>');
+      $('#contactNumber').after('<span class="error">This field is required</span>');
       }
       else if (username.length < 1) {
-      $('#pwd').after('<span class="error">This field is required</span>');
+      $('#username').after('<span class="error">This field is required</span>');
       }
     else if (password.length < 8) {
       $('#pwd').after('<span class="error">This field is required</span>');
