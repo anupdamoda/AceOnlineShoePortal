@@ -39,7 +39,7 @@ $(document).ready(function() {
       $('#lastname').after('<span class="error">This field is required</span>');
     }
     else if (email.length < 1) {
-    	{
+    	
       $('#emailId').after('<span class="error">This field is required</span>');
         } else {
       var regEx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
