@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/Javascript.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="assets/css/AceAutomation.css"></script>
 </head>
@@ -39,6 +40,7 @@
   <br>
 </br>
 <div class="container">
+  <form id="first_form" method="post" action="">
   <div class="form-group">
   <label for="usr">Salutation:</label>
   <div class="dropdown">
@@ -47,40 +49,41 @@
   <option value="Mr">Mr.</option>
   <option value="Mrs">Mrs.</option>
   <option value="Ms">Ms.</option>
-</select>
+  </select>
   </div>
   <br></br>
-</div>
-  <div class="form-group">
-  <label for="usr">First Name:</label>
-  <input type="text" class="form-control" id="usr">
   </div>
-<div class="form-group">
-  <label for="lastName">Last Name:</label>
-  <input type="text" class="form-control" id="lastName">
-    </div>
-  <div class="form-group">
+  
+  <label for="firstname">First Name:</label>
+  <input type="text" class="form-control" id="firstname" name="firstname">
+  <br>
+  </br>
+  <label for="lastname">Last Name:</label>
+  <input type="text" class="form-control" id="lastname" name="lastname">
+  <br>
+  </br>
   <label for="emailId">Email id:</label>
-  <input type="text" class="form-control" id="emailId">
-  </div>
-  <div class="form-group">
+  <input type="text" class="form-control" id="emailId" name="emailId">
+  <br>
+  </br>
   <label for="contactNumber">Contact Number:</label>
   <input type="text" class="form-control" id="contactNumber">
-  </div>
-  <div class="form-group">
+  <br>
+  </br>
   <label for="usr">UserName:</label>
   <input type="text" class="form-control" id="usr">
-  </div>
-  <div class="form-group">
+  <br>
+  </br>
   <label for="pwd">Password:</label>
   <input type="text" class="form-control" id="pwd">
+  <br>
+  </br>
+  <div>
+    <CENTER><input class="btn btn-primary" type="submit" value="Submit" /></CENTER>
   </div>
+  <br>
+  </form>
 </div>
-
-    <button type="button" class="btn btn-info" id="Submit">Submit</button>
-
-   <br>
-</br>
 <br>
 </br>
 <CENTER>

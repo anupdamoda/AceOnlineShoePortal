@@ -314,3 +314,21 @@ h1
 color: #ffffff;
   font-family: 'Comfortaa';
 }
+
+form label {
+  display: inline-block;
+  width: 100px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  margin-left: 5px;
+}
+
+label.error {
+  display: inline;
+}
