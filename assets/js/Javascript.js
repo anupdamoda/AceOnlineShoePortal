@@ -39,18 +39,20 @@ $(document).ready(function() {
       $('#lastname').after('<span class="error">This field is required</span>');
     }
     else if (email.length < 1) {
+    	{
       $('#emailId').after('<span class="error">This field is required</span>');
-    } else {
+        } else {
       var regEx = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       var validEmail = regEx.test(email);
       if (!validEmail) {
         $('#emailId').after('<span class="error">Enter a valid email</span>');
-      }
+               }
+                               
       else if (contactnumber.length < 1) {
       $('#contactNumber').after('<span class="error">This field is required</span>');
       }
       else if (username.length < 1) {
-      $('#username').after('<span class="error">This field is required</span>');
+      $('#usr').after('<span class="error">This field is required</span>');
       }
     else if (password.length < 1) {
       $('#pwd').after('<span class="error">This field is required</span>');
