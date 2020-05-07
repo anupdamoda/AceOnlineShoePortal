@@ -1,6 +1,7 @@
 body
 {
 	background-image: url('../images/worldmap.jpg');
+
 }
 
 #ShoePortalTitle
@@ -111,7 +112,7 @@ font-family: 'Comfortaa';font-size: 16px;
 background-image: url("../images/jumbtrombackgroundimage-3.png");
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-position: top;
+background-position: 85% 15%;
 height: 350px;
 }
 
