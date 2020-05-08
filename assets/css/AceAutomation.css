@@ -116,6 +116,15 @@ background-attachment: fixed;
 height: 350px;
 }
 
+@media only screen and (min-device-width: 400px) {
+  .jumbotron { 
+     background-image: url("../images/smalljumbotron.png"); 
+     background-repeat: no-repeat;
+     background-position: top;
+     background-attachment: fixed;
+  }
+}
+
 .form-group
 {
 width: 350px;
