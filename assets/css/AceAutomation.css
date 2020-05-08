@@ -116,7 +116,7 @@ background-attachment: fixed;
 height: 350px;
 }
 
-@media only screen and (min-device-width: 400px) {
+@media only screen and (min-device-width: 450px) {
   .jumbotron { 
      background-image: url("../images/jumbtrombackgroundimage-3.png"); 
      background-repeat: no-repeat;
