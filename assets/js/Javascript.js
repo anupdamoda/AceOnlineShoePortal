@@ -93,4 +93,24 @@ $(".btn.btn-info.AddToCart").on('click',function(){
   });
 });
 
+$(document).ready(function(){
+  $(".formalshoetable").hide();
+$(".formalshoedropdown").on('click',function(){
+    $(".formalshoetable").toggle(500);
+  });
+});
+
+$(document).ready(function(){
+  $(".sportsshoetable").hide();
+$(".sportsshoedropdown").on('click',function(){
+    $(".sportsshoetable").toggle(500);
+  });
+});
+
+$(document).ready(function(){
+  $(".sneakersshoetable").hide();
+$(".sneakershoedropdown").on('click',function(){
+    $(".sneakersshoetable").toggle(500);
+  });
+});
 

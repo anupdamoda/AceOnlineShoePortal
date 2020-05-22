@@ -296,6 +296,7 @@ color: #000000;
   text-shadow:5px 5px 10px white;
    font-weight: 400;
    font-family: 'Comfortaa';
+   animation: Slide_Up 10s ease;
 }
 
 #CopyrightFooter
@@ -341,4 +342,8 @@ form div {
 
 label.error {
   display: inline;
+}
+
+.fa{
+  font-size: 25px;
 }
