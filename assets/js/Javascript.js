@@ -93,24 +93,64 @@ $(".btn.btn-info.AddToCart").on('click',function(){
   });
 });
 
+/****************** functionality related to hide and show of the Online Products Table *************************************/
+/****************** functionality related to hide and show of the Online Products Table *************************************/
+/****************** Formal shoes  *************************************/
+
 $(document).ready(function(){
   $(".formalshoetable").hide();
+  $(".formalshoedropup").hide();
 $(".formalshoedropdown").on('click',function(){
     $(".formalshoetable").toggle(500);
+    $(".formalshoedropup").show();
+    $(".formalshoedropdown").hide();
   });
 });
+
+$(document).ready(function(){
+$(".formalshoedropup").on('click',function(){
+    $(".formalshoetable").hide();
+    $(".formalshoedropdown").show();
+    $(".formalshoedropup").hide();
+  });
+});
+
+/****************** Sports shoes  *************************************/
 
 $(document).ready(function(){
   $(".sportsshoetable").hide();
+  $(".sportsshoedropup").hide();
 $(".sportsshoedropdown").on('click',function(){
     $(".sportsshoetable").toggle(500);
+    $(".sportsshoedropup").show();
+    $(".sportsshoedropdown").hide();
   });
 });
 
 $(document).ready(function(){
-  $(".sneakersshoetable").hide();
-$(".sneakershoedropdown").on('click',function(){
-    $(".sneakersshoetable").toggle(500);
+$(".sportsshoedropup").on('click',function(){
+    $(".sportsshoetable").hide();
+    $(".sportsshoedropdown").show();
+    $(".sportsshoedropup").hide();
   });
 });
 
+/****************** Sneaker shoes  *************************************/
+
+$(document).ready(function(){
+  $(".sneakersshoetable").hide();
+  $(".sneakersshoedropup").hide();
+$(".sneakershoedropdown").on('click',function(){
+    $(".sneakersshoetable").toggle(500);
+    $(".sneakersshoedropup").show();
+    $(".sneakershoedropdown").hide();
+  });
+});
+
+$(document).ready(function(){
+$(".sneakersshoedropup").on('click',function(){
+    $(".sneakersshoetable").hide();
+    $(".sneakershoedropdown").show();
+    $(".sneakersshoedropup").hide();
+  });
+});
