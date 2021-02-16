@@ -64,26 +64,30 @@ $(document).ready(function() {
      })
   });
 
-
+var trialCount = 0;
 $(document).ready(function() {
   $('#second_form').submit(function(e) {
-
+    console.log(trialCount);
     e.preventDefault();
     var user_name = $('#usr').val();
     var password = $('#pwd').val();
-
     $(".error").remove();
-
-    if (user_name.length < 1) {
+    if (trialCount < 4 ){
+      if (user_name.length < 1) {
       $('#pwd').after('<span class="error">Both Username and Password field are required</span>');
-    }
-    else if (password.length < 1) {
+      trialCount++;
+      }
+      else if (password.length < 1) {
       $('#pwd').after('<span class="error">Both Username and Password field are required</span>');
-    }
-     else{
+     trialCount++;
+      }
+      else{
        location.href = "ShoeTypes.html";
-          }
-      
+      }
+      }
+      else{
+        $('#pwd').after('<span class="error">You tried 3 times already !!! - start from beginning </span>');
+      }
      })
 });
 
