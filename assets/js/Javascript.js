@@ -72,7 +72,7 @@ $(document).ready(function() {
     var user_name = $('#usr').val();
     var password = $('#pwd').val();
     $(".error").remove();
-    if (trialCount < 4 ){
+    if (trialCount < 3 ){
       if (user_name.length < 1) {
       $('#pwd').after('<span class="error">Both Username and Password field are required</span>');
       trialCount++;
